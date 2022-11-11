@@ -1,0 +1,875 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>KeySoft IT</title>
+    <script defer src="/__/firebase/9.13.0/firebase-app-compat.js"></script>
+    <script defer src="/__/firebase/9.13.0/firebase-auth-compat.js"></script>
+    <script defer src="/__/firebase/9.13.0/firebase-database-compat.js"></script>
+    <script defer src="/__/firebase/9.13.0/firebase-firestore-compat.js"></script>
+    <script defer src="/__/firebase/9.13.0/firebase-functions-compat.js"></script>
+    <script defer src="/__/firebase/9.13.0/firebase-messaging-compat.js"></script>
+    <script defer src="/__/firebase/9.13.0/firebase-storage-compat.js"></script>
+    <script defer src="/__/firebase/9.13.0/firebase-analytics-compat.js"></script>
+    <script defer src="/__/firebase/9.13.0/firebase-remote-config-compat.js"></script>
+    <script defer src="/__/firebase/9.13.0/firebase-performance-compat.js"></script>
+    <script defer src="/__/firebase/init.js?useEmulator=true"></script>
+
+
+
+    <!-- styles  -->
+    <link rel="stylesheet" href="./style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@400;500;600;700&display=swap"
+      rel="stylesheet">
+
+      <link href="https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css" rel="stylesheet">
+      <script src="https://unpkg.com/boxicons@2.1.2/dist/boxicons.js"></script>
+
+      <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
+
+    
+  </head>
+
+  <body>
+
+    <header class="header" data-header>
+      <div class="container">
+  
+        <a href="#" class="logo">
+          <img src="./assets/images/logo (1).png" alt="KeySoft IT">
+        </a>
+
+       
+  
+        <button class="nav-toggle-btn" data-nav-toggle-btn>
+          <ion-icon name="menu-outline" class="open"></ion-icon>
+          <ion-icon name="close-outline" class="close"></ion-icon>
+        </button>
+  
+        <nav class="navbar">
+          <div class="container">
+            <ul class="navbar-list">
+  
+              <li>
+                <a href="#home" class="navbar-link" data-navbar-link>Home</a>
+              </li>
+  
+              <li>
+                <a href="#features" class="navbar-link" data-navbar-link>Features</a>
+              </li>
+  
+              <li>
+                <a href="#service" class="navbar-link" data-navbar-link>Service</a>
+              </li>
+  
+              <li>
+                <a href="#blog" class="navbar-link" data-navbar-link>At KeySoft IT</a>
+              </li>
+  
+              <li>
+                <a href="#newsletter" class="navbar-link" data-navbar-link>Newsletter</a>
+              </li>
+
+              <li>
+                
+              </li>
+  
+            </ul>
+          </div>
+        </nav>
+  
+        <button class="btn btn-secondary">
+          <a href="#" class="button" style="color: white;" >Login</a>
+          <ion-icon name="chevron-forward-outline"></ion-icon>
+        </button>
+  
+      </div>
+
+      
+
+    </header>
+
+
+
+
+    
+    
+  
+  
+  
+  
+  
+    <main>
+
+
+      
+      
+
+
+      <article>
+        <div class="popup">
+          <button id="close" style="color: white; z-index:3;">&times;</button>
+          
+          <p class="text-selection" >
+              May the flag wave boldy with its vibrant hues... <br>
+              Honoring veterans like you with beautiful red,white and blue !
+          </p>
+          
+          
+          <h2>Happy Veteran's Day !</h2>
+
+        </div>
+
+        
+
+  
+        <!-- 
+          - #HERO
+        -->
+  
+        <section class="hero" id="home">
+  
+          <!-- <img src="./assets/images/shape1.png" alt="Illustration art" class="shape shape-1"> -->
+          <!-- <img src="./assets/images/shape2.png" alt="Illustration art" class="shape shape-2"> -->
+          <!-- <img src="./assets/images/shape3.png" alt="Illustration art" class="shape shape-3"> -->
+  
+          <div class="container">
+  
+            <figure class="hero-banner">
+              <img src="./assets/images/hero-banner.png" alt="Illustration art" loading="lazy" class="w-100">
+            </figure>
+  
+            <div class="hero-content">
+              <h2 class="h1 hero-title"> Your Key
+                <!-- <box-icon name='key' rotate='270' color='#fdc108' class="key" ></box-icon>                -->
+               to the Next Gen Innovation.</h2>
+              <p class="section-text">
+                <p>
+                  <i class="bx bx-check-shield shield-icon" style="color:hsl(342, 100%, 50%);"></i>
+                  KeySoft IT’s Application Services partners with, business and IT leaders to address their most complex business challenges to advance intelligence, agility and resilience across their entire enterprise.
+                </p>
+                <br>
+                <p>
+                  <i class="bx bx-check-shield shield-icon" style="color: hsl(342, 100%, 50%);"></i>
+                  From Architecting your ideas to Implementing Final Product, We build Futuristic, Trailblazing, Secure Software.
+                </p>
+              </p>
+              <button class="btn btn-primary"  style="margin-top:30px; background-color: #FF0000;">
+                <span>A Veteran Owned Business</span>
+                <img class="vetrain_img" src="/public/assets/images/veteranownedbusinesslogo.jpg" alt="" srcset="">
+                <!-- <ion-icon name="chevron-forward-outline"></ion-icon> -->
+              </button>
+            </div>
+          </div>
+        </section>
+
+
+
+        
+        <!-- 
+          - #FEATURES
+        -->
+  
+        <section class="features" id="features">
+          <div class="container">
+  
+            <p class="section-subtitle">How Can Help You</p>
+  
+            <h2 class="h2 section-title">We’re helping teams do their best work</h2>
+  
+            <ul class="features-list">
+
+              <li>
+                <div class="features-card">
+  
+                  <div class="card-icon">
+                    <img src="./assets/images/features-icon-2.png" alt="Illustration icon">
+                  </div>
+  
+                  <h3 class="h3 card-title">Software Development</h3>
+  
+                  <p class="card-text">
+                    KeySoft IT helps businesses accelerate adoption of new technologies and orchestrate ongoing innovation
+                  </p>
+  
+                  <a href="#" class="card-link">
+                    <span>Learn More</span>
+  
+                    <ion-icon name="chevron-forward-outline"></ion-icon>
+                  </a>
+  
+                </div>
+              </li>
+  
+              <li>
+                <div class="features-card">
+  
+                  <div class="card-icon">
+                    <img src="./assets/images/features-icon-3.png" alt="Illustration icon">
+                  </div>
+  
+                  <h3 class="h3 card-title">Staffing</h3>
+  
+                  <p class="card-text">
+                    Provide clients with job leads electronically, via uploading employment opportunity information  to internet job boards.
+                  </p>
+  
+                  <a href="#" class="card-link">
+                    <span>Learn More</span>
+  
+                    <ion-icon name="chevron-forward-outline"></ion-icon>
+                  </a>
+  
+                </div>
+              </li>
+  
+              <li>
+                <div class="features-card">
+  
+                  <div class="card-icon">
+                    <img src="./assets/images/features-icon-4.png" style="width: 82px; height:82px;" alt="Illustration icon">
+                  </div>
+  
+                  <h3 class="h3 card-title">Industry</h3>
+  
+                  <p class="card-text">
+                    Choose a partner with intimate knowledge of your industry and first-hand experience of defining its future.
+                  </p>
+  
+                  <a href="#" class="card-link">
+                    <span>Learn More</span>
+
+                    <ion-icon name="chevron-forward-outline"></ion-icon>
+                  </a>
+  
+                </div>
+              </li>
+  
+            </ul>
+  
+          </div>
+        </section>
+  
+  
+  
+        
+          
+        
+  
+        <!-- 
+          - #SERVICE
+        -->
+  
+        <section class="service" id="service">
+          <div class="container">
+  
+            <figure class="service-banner">
+              <img src="./assets/images/service-1.png" alt="Illustration art" loading="lazy" class="w-100">
+            </figure>
+  
+            <div class="service-content">
+  
+              <p class="section-subtitle">Services We Offer</p>
+  
+              <h2 class="h2 section-title">We are here, to help your  business</h2>
+  
+              <ul class="service-list">
+  
+                <li class="service-item">
+  
+                  <div class="service-item-icon">
+                    <ion-icon name="checkmark-outline"></ion-icon>
+                  </div>
+  
+                  <h3 class="h3 service-item-title">Digtal Consulting</h3>
+  
+                </li>
+  
+                <li class="service-item">
+  
+                  <div class="service-item-icon">
+                    <ion-icon name="checkmark-outline"></ion-icon>
+                  </div>
+  
+                  <h3 class="h3 service-item-title">Web Design And Development</h3>
+  
+                </li>
+  
+                <li class="service-item">
+  
+                  <div class="service-item-icon">
+                    <ion-icon name="checkmark-outline"></ion-icon>
+                  </div>
+  
+                  <h3 class="h3 service-item-title">BI And Data Analytics</h3>
+  
+                </li>
+  
+                <li class="service-item">
+  
+                  <div class="service-item-icon">
+                    <ion-icon name="checkmark-outline"></ion-icon>
+                  </div>
+  
+                  <h3 class="h3 service-item-title">Staffing</h3>
+  
+                </li>
+  
+              </ul>
+  
+            </div>
+  
+            <figure class="service-banner">
+              <img src="./assets/images/service-2.png" alt="Illustration art" loading="lazy" class="w-100">
+            </figure>
+  
+            <div class="service-content">
+  
+              <p class="section-subtitle">Our Services</p>
+  
+              <h2 class="h2 section-title">Best IT & technology service in your area</h2>
+  
+              <ul class="service-list">
+  
+                <li class="service-item">
+  
+                  <div class="service-item-icon">
+                    <ion-icon name="checkmark-outline"></ion-icon>
+                  </div>
+  
+                  <h3 class="h3 service-item-title">Design & Development</h3>
+  
+                </li>
+  
+                <li class="service-item">
+  
+                  <div class="service-item-icon">
+                    <ion-icon name="checkmark-outline"></ion-icon>
+                  </div>
+  
+                  <h3 class="h3 service-item-title">Moblie App Development</h3>
+  
+                </li>
+  
+                <li class="service-item">
+  
+                  <div class="service-item-icon">
+                    <ion-icon name="checkmark-outline"></ion-icon>
+                  </div>
+  
+                  <h3 class="h3 service-item-title">Web Development</h3>
+  
+                </li>
+  
+                <li class="service-item">
+  
+                  <div class="service-item-icon">
+                    <ion-icon name="checkmark-outline"></ion-icon>
+                  </div>
+  
+                  <h3 class="h3 service-item-title">BlockChain</h3>
+  
+                </li>
+
+                <li class="service-item">
+  
+                  <div class="service-item-icon">
+                    <ion-icon name="checkmark-outline"></ion-icon>
+                  </div>
+  
+                  <h3 class="h3 service-item-title">UI/UX Design</h3>
+  
+                </li>
+  
+              </ul>
+  
+            </div>
+  
+          </div>
+        </section>
+  
+  
+  
+  
+  
+        <!-- 
+          - #BLOG
+        -->
+  
+        <section class="blog" id="blog">
+          <div class="container">
+  
+            <p class="section-subtitle">Know about us in detail</p>
+  
+            <h2 class="h2 section-title">Checkout Our Services</h2>
+  
+            <ul class="blog-list">
+  
+              <li>
+                <div class="blog-card">
+  
+                  <figure class="blog-banner">
+                    <a href="#">
+                      <img src="assets/images/mern.webp" alt="mernStack"
+                        loading="lazy" class="w-100">
+                    </a>
+                  </figure>
+  
+                  <div class="blog-content">
+  
+                    <ul class="blog-meta-list">
+  
+                      <li class="blog-meta-item">
+                        <ion-icon name="pricetag-outline"></ion-icon>
+  
+                        <a href="/public/pages/web.html" class="blog-meta-link">Web Devlopment</a>
+                      </li>
+  
+                      <!-- <li class="blog-meta-item">
+                        <ion-icon name="calendar-number-outline"></ion-icon>
+  
+                        <time class="blog-meta-time" datetime="2022-02-25">25 Feb, 2022</time>
+                      </li>
+   -->
+                    </ul>
+  
+                    <h3 class="h3 blog-title">
+                      <a href="#">Web Devlopment</a>
+                    </h3>
+  
+                  </div>
+  
+                </div>
+              </li>
+  
+              <li>
+                <div class="blog-card">
+  
+                  <figure class="blog-banner">
+                    <a href="/">
+                      <img src="./assets/images/moblieApp.png" alt="Top 10 important tips on IT services & design"
+                        loading="lazy" class="w-100">
+                    </a>
+                  </figure>
+  
+                  <div class="blog-content">
+  
+                    <ul class="blog-meta-list">
+  
+                      <li class="blog-meta-item">
+                        <ion-icon name="pricetag-outline"></ion-icon>
+  
+                        <a href="#" class="blog-meta-link">App Devlopment</a>
+                      </li>
+  
+                      <!-- <li class="blog-meta-item">
+                        <ion-icon name="calendar-number-outline"></ion-icon>
+  
+                        <time class="blog-meta-time" datetime="2022-02-25">25 Feb, 2022</time>
+                      </li> -->
+  
+                    </ul>
+  
+                    <h3 class="h3 blog-title">
+                      <a href="#">Moblie App</a>
+                    </h3>
+  
+                  </div>
+  
+                </div>
+              </li>
+  
+              <li>
+                <div class="blog-card">
+  
+                  <figure class="blog-banner">
+                    <a href="#">
+                      <img src="./assets/images/staffing.jpg" alt="How our company works in different ways" loading="lazy"
+                        class="w-100">
+                    </a>
+                  </figure>
+  
+                  <div class="blog-content">
+  
+                    <ul class="blog-meta-list">
+  
+                      <li class="blog-meta-item">
+                        <ion-icon name="pricetag-outline"></ion-icon>
+  
+                        <a href="#" class="blog-meta-link">Staffing</a>
+                      </li>
+  
+                      <!-- <li class="blog-meta-item">
+                        <ion-icon name="calendar-number-outline"></ion-icon>
+  
+                        <time class="blog-meta-time" datetime="2022-02-25">25 Feb, 2022</time>
+                      </li> -->
+  
+                    </ul>
+  
+                    <h3 class="h3 blog-title">
+                      <a href="#">Staffing</a>
+                    </h3>
+  
+                  </div>
+  
+                </div>
+              </li>
+
+
+              <li>
+                <div class="blog-card">
+  
+                  <figure class="blog-banner">
+                    <a href="#">
+                      <img src="./assets/images/uiux.jpg" alt="How our company works in different ways" loading="lazy"
+                        class="w-100">
+                    </a>
+                  </figure>
+  
+                  <div class="blog-content">
+  
+                    <ul class="blog-meta-list">
+  
+                      <li class="blog-meta-item">
+                        <ion-icon name="pricetag-outline"></ion-icon>
+  
+                        <a href="#" class="blog-meta-link">UI & UX</a>
+                      </li>
+  
+                      <!-- <li class="blog-meta-item">
+                        <ion-icon name="calendar-number-outline"></ion-icon>
+  
+                        <time class="blog-meta-time" datetime="2022-02-25">25 Feb, 2022</time>
+                      </li> -->
+  
+                    </ul>
+  
+                    <h3 class="h3 blog-title">
+                      <a href="#">UI & UX Desgining</a>
+                    </h3>
+  
+                  </div>
+  
+                </div>
+              </li>
+
+
+              <li>
+                <div class="blog-card">
+  
+                  <figure class="blog-banner">
+                    <a href="#">
+                      <img src="./assets/images/blockchain.jpeg" alt="How our company works in different ways" loading="lazy"
+                        class="w-100">
+                    </a>
+                  </figure>
+  
+                  <div class="blog-content">
+  
+                    <ul class="blog-meta-list">
+  
+                      <li class="blog-meta-item">
+                        <ion-icon name="pricetag-outline"></ion-icon>
+  
+                        <a href="#" class="blog-meta-link">Staffing</a>
+                      </li>
+  
+                      <!-- <li class="blog-meta-item">
+                        <ion-icon name="calendar-number-outline"></ion-icon>
+  
+                        <time class="blog-meta-time" datetime="2022-02-25">25 Feb, 2022</time>
+                      </li> -->
+  
+                    </ul>
+  
+                    <h3 class="h3 blog-title">
+                      <a href="#">Blockchain</a>
+                    </h3>
+  
+                  </div>
+  
+                </div>
+              </li>
+
+
+              <li>
+                <div class="blog-card">
+  
+                  <figure class="blog-banner">
+                    <a href="#">
+                      <img src="./assets/images/digtalcounstling.jpg" alt="How our company works in different ways" loading="lazy"
+                        class="w-100">
+                    </a>
+                  </figure>
+  
+                  <div class="blog-content">
+  
+                    <ul class="blog-meta-list">
+  
+                      <li class="blog-meta-item">
+                        <ion-icon name="pricetag-outline"></ion-icon>
+  
+                        <a href="#" class="blog-meta-link">Consulting</a>
+                      </li>
+  
+                      <!-- <li class="blog-meta-item">
+                        <ion-icon name="calendar-number-outline"></ion-icon>
+  
+                        <time class="blog-meta-time" datetime="2022-02-25">25 Feb, 2022</time>
+                      </li> -->
+  
+                    </ul>
+  
+                    <h3 class="h3 blog-title">
+                      <a href="#">Digtal Consulting</a>
+                    </h3>
+  
+                  </div>
+  
+                </div>
+              </li>
+
+  
+            </ul>
+  
+          </div>
+        </section>
+  
+  
+  
+  
+        <!-- 
+          - #NEWSLETTER
+        -->
+  
+        <section class="newsletter" id="newsletter">
+          <div class="container">
+  
+            <figure class="newsletter-banner">
+              <img src="./assets/images/newsletter.png" alt="Illustration art" loading="lazy" class="w-100">
+            </figure>
+  
+            <div class="newsletter-content">
+  
+              <p class="section-subtitle">Subscribe Our Newsletter</p>
+  
+              <h2 class="h2 section-title">The latest resources, sent to your inbox weekly</h2>
+  
+              <form action="" class="newsletter-form">
+                <input type="email" name="email" required placeholder="Enter your email address" class="input-field">
+  
+                <button type="submit" class="btn btn-primary">
+                  <span>Subscribe Now</span>
+  
+                  <ion-icon name="chevron-forward-outline"></ion-icon>
+                </button>
+              </form>
+  
+            </div>
+  
+          </div>
+        </section>
+  
+      </article>
+    </main>
+  
+  
+  
+  
+  
+    <!-- 
+      - #FOOTER
+    -->
+  
+    <footer class="footer">
+  
+      <div class="footer-top">
+        <div class="container">
+  
+          <div class="footer-brand">
+  
+            <a href="#" class="logo">
+              <img src="./assets/images/logo (1).png" alt="KeySoft IT">
+              <!-- KeySoft IT -->
+            </a>
+  
+            <p class="section-text">
+              Your business needs our software solutions.
+            </p>
+  
+            <div class="location-text">
+              <div class="location-icon">
+                <ion-icon name="location-outline"></ion-icon>
+              </div>
+  
+              <address class="address">
+                401 Church St, STE #640,
+                O’Fallon, MO 63366
+              </address>
+            </div>
+  
+          </div>
+  
+          <div class="quicklink-box">
+            <p class="h3 quicklink-title">Quick links</p>
+  
+            <ul class="quicklink-list">
+  
+              <li>
+                <a href="#" class="quicklink">IT Startup</a>
+              </li>
+  
+              <li>
+                <a href="#" class="quicklink">Software</a>
+              </li>
+  
+              <li>
+                <a href="#" class="quicklink">Business</a>
+              </li>
+  
+              <li>
+                <a href="#" class="quicklink">App</a>
+              </li>
+  
+              <li>
+                <a href="#" class="quicklink">Insurance</a>
+              </li>
+  
+              <li>
+                <a href="#" class="quicklink">Property</a>
+              </li>
+  
+              <li>
+                <a href="#" class="quicklink">Big Data</a>
+              </li>
+  
+              <li>
+                <a href="#" class="quicklink">Distance Learning</a>
+              </li>
+  
+              <li>
+                <a href="#" class="quicklink">Chatbot</a>
+              </li>
+  
+              <li>
+                <a href="#" class="quicklink">Medical</a>
+              </li>
+  
+            </ul>
+          </div>
+  
+          <div class="contact">
+            <p class="h3 contact-title">Contact with us</p>
+  
+            <ul class="contact-list">
+  
+              <li class="contact-item">
+                <div class="contact-icon">
+                  <ion-icon name="mail-outline"></ion-icon>
+                </div>
+  
+                <a href="mailto:hello@solutry.com" class="contact-link">KeySoft@gmail.com</a>
+              </li>
+  
+              <li class="contact-item">
+                <div class="contact-icon">
+                  <ion-icon name="call-outline"></ion-icon>
+                </div>
+  
+                <a href="tel:+14854560102" class="contact-link">+1(636)-323-9999</a>
+              </li>
+  
+            </ul>
+          </div>
+  
+        </div>
+      </div>
+  
+      <div class="footer-bottom">
+        <div class="container">
+  
+          <p class="copyright">
+            &copy; 2022 <a href="#">KeySoft IT</a>. All Rights Reserved
+          </p>
+  
+          <ul class="social-list">
+  
+            <li>
+              <a href="#" class="social-link">
+                <ion-icon name="logo-facebook"></ion-icon>
+              </a>
+            </li>
+  
+            <li>
+              <a href="#" class="social-link">
+                <ion-icon name="logo-twitter"></ion-icon>
+              </a>
+            </li>
+  
+            <li>
+              <a href="#" class="social-link">
+                <ion-icon name="logo-linkedin"></ion-icon>
+              </a>
+            </li>
+  
+            <li>
+              <a href="#" class="social-link">
+                <ion-icon name="logo-instagram"></ion-icon>
+              </a>
+            </li>
+  
+          </ul>
+  
+        </div>
+      </div>
+  
+    </footer>
+  
+  
+  
+  
+  
+    <!-- 
+      - #GO TO TOP
+    -->
+  
+    <a href="#top" class="go-top active" data-go-top>
+      <ion-icon name="chevron-up-outline"></ion-icon>
+    </a>
+  
+  
+  
+  
+  
+    <!-- 
+      - custom js link
+    -->
+    <script src="./assets/js/script.js"></script>
+  
+    <!-- 
+      - ionicon link
+    -->
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+
+    <script>
+      window.addEventListener("load", function(){
+      setTimeout(
+        function open(event){
+            document.querySelector(".popup").style.display = "block";
+        },
+        1000
+        )
+    });
+      document.querySelector("#close").addEventListener("click", function(){
+          document.querySelector(".popup").style.display = "none";
+      });
+    </script>
+
+  </body>
+</html>
